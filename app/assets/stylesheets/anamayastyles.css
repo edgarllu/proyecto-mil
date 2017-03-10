@@ -1,0 +1,250 @@
+.navbar-inverse {
+  background: rgba(69, 77, 80, 0.42);
+  border-bottom: none;
+}
+
+.navbar-inverse .navbar-toggle {
+  border: 1px solid #333;
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.amlogo {
+    
+    -webkit-filter: contrast(200%); 
+    filter: contrast(200%);
+}
+
+ul.nav.navbar-nav.navbar-right {
+    margin-top: 20px;
+}
+
+
+img.flower {
+    height: 100%;
+    width: 100%;
+}
+
+.jumbotron {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: url(lotus1.png);
+  background-size: cover;
+  height: 80rem;
+  background-attachment: fixed;
+  transition: background .5s ease-in-out;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: transparent;
+}
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background: rgba(255, 255, 255, 0.75);
+  }
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: transparent;
+}
+li a {
+  text-decoration: none;
+  position: relative;
+  padding: 6px 0;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  color: lightblue;
+}
+li a:after {
+  content: '';
+  width: 0%;
+  margin-left: 50%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  border-radius: 40%;
+  position: absolute;
+  transition: all 0.5s;
+}
+li a:hover:after {
+  background-color: white;
+  width: 60%;
+  margin-left: 20%;
+  box-shadow: 0px 0px 10px white;
+}
+li a.active:after {
+  background-color: white;
+  width: 60%;
+  margin-left: 20%;
+  box-shadow: 0px 0px 10px white;
+}
+
+/* *********************************
+           Toolbar Logo
+  ********************************** */
+.small-logo-container {
+  
+  height: 70px;
+  overflow: hidden;
+  position: relative;
+}
+
+.small-logo {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 2px;
+}
+
+.row--services {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 150px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #000;
+  text-align: center;
+}
+
+.container-footer{
+  margin-top: 10px;
+  color: #fff;
+  width: 100%;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-youtube-play {
+    color: #e52d27;
+}
+
+.fa-rss {
+    color: #FF6600;
+}
+
+.fa-vine {
+    color: #00a478;
+}
+
+.fa-flickr {
+    color: #ff0084;
+}
+
+.fa-twitch {
+    color: #6441A5;
+}
+
+.fa-linkedin {
+    color: #007bb6;
+}
+
+.fa {
+    opacity: 0.7;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+
+}
+
+i.fa.fa-envelope-o {
+    font-size: 42px;
+    color: #fff;
+    margin-left: 11px;
+}
+
+i.fa.fa-instagram {
+    font-size: 42px;
+    color: #FF5722;
+    margin-left: 11px;
+}
+
+i.fa.fa-facebook {
+    font-size: 42px;
+    color: #3f51b5
+}
+
+img.logo--saama {
+    width: 285px;
+    margin-left: 1000px;
+}
+
+img.anamayastory {
+    width: 100%;
+}
+/* *********************************
+           Big Logo
+  ********************************** */
+.big-logo-row {
+  background: gold;
+}
+.big-logo-row .big-logo-container {
+  padding-top: 50px;
+}
+.big-logo-row h1 {
+  font-size: 4em;
+  margin: 0;
+  padding: 0 0 15px 0;
+}
+@media (min-width: 400px) {
+  .big-logo-row h1 {
+    font-size: 4.5em;
+  }
+}
+@media (min-width: 440px) {
+  .big-logo-row h1 {
+    font-size: 5.5em;
+  }
+}
+@media (min-width: 500px) {
+  .big-logo-row h1 {
+    font-size: 6.5em;
+  }
+}
+@media (min-width: 630px) {
+  .big-logo-row h1 {
+    font-size: 7.5em;
+  }
+}
+@media (min-width: 768px) {
+  .big-logo-row h1 {
+    font-size: 9em;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .big-logo-row h1 {
+    font-size: 12em;
+  }
+}

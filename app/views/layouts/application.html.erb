@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anamaya</title>
+  <%= stylesheet_link_tag    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag '/assets/anamayastyles.css', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag '/assets/jquery.js', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag '/assets/anamayajs.js', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag '/assets/parallax.js', 'data-turbolinks-track' => true %>
+   <%= javascript_include_tag 'https://use.fontawesome.com/3d77764934.js', 'data-turbolinks-track' => true %>
+
+  <%= csrf_meta_tags %>
+
+</head>
+
+<body>
+
+<%= yield %>
+
+</body>
+</html>
